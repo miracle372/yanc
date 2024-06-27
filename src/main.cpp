@@ -8,7 +8,6 @@
 
 int main()
 {
-    // TODO: setup config.h to have a version constant in it
     std::cout << "yanc " << YANC_VERSION << "\n\n";
 
     // hostname@username
