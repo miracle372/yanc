@@ -1,3 +1,6 @@
+// user.cpp
+// Retrieves information about current user
+
 #include "user.hpp"
 
 #include <unistd.h>

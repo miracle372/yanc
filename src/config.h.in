@@ -1,1 +1,4 @@
+// config.h.in
+// Meson config input file
+
 #define YANC_VERSION "@version@"
