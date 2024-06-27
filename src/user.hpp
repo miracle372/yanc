@@ -9,7 +9,10 @@
 
 namespace yanc
 {
-    std::string_view username();
+    namespace user
+    {
+        std::string_view username();
+    }
 }
 
 #endif

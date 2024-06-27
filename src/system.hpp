@@ -8,8 +8,11 @@
 
 namespace yanc
 {
-    /// Should return the system's hostname
-    std::string_view hostname();
+    namespace system
+    {
+        /// Should return the system's hostname
+        std::string_view hostname();
+    }
 }
 
 #endif
