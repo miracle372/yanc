@@ -1,14 +1,15 @@
 #include <iostream>
 #include <string>
 
+#include <config.h>
+
 #include "machine.hpp"
 #include "user.hpp"
 
 int main()
 {
     // TODO: setup config.h to have a version constant in it
-    std::string yanc_version = "0.1";
-    std::cout << "yanc " << yanc_version << "\n\n";
+    std::cout << "yanc " << YANC_VERSION << "\n\n";
 
     // hostname@username
     std::cout << yanc::username() << '@' << yanc::hostname() << '\n';
