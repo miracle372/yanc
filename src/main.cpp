@@ -1,12 +1,16 @@
-#include <stdio.h>
+#include <iostream>
+#include <string>
 
-#define PROJECT_NAME "yanc"
+int main()
+{
+    // TODO: setup config.h to have a version constant in it
+    std::string yanc_version = "0.1";
+    std::cout << "yanc " << yanc_version << "\n\n";
 
-int main(int argc, char **argv) {
-    if(argc != 1) {
-        printf("%s takes no arguments.\n", argv[0]);
-        return 1;
-    }
-    printf("This is project %s.\n", PROJECT_NAME);
+    //placeholders
+    std::cout << "user@hostname" << '\n';
+    std::cout << "distro name (version)" << '\n';
+    std::cout << "kernel version" << '\n';
+
     return 0;
 }
