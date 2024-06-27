@@ -1,4 +1,5 @@
 src = [
+    'machine.cpp',
     'main.cpp',
     'user.cpp'
 ]
