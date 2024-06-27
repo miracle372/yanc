@@ -5,8 +5,8 @@ configure_file(input: 'config.h.in',
                configuration: conf_data)
 
 src = [
-    'machine.cpp',
     'main.cpp',
+    'system.cpp',
     'user.cpp'
 ]
 

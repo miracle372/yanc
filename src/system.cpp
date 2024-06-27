@@ -1,7 +1,7 @@
-// machine.cpp
-// Retrieves information about the machine running yanc
+// system.cpp
+// Retrieves information about the system running yanc
 
-#include "machine.hpp"
+#include "system.hpp"
 
 #include <fstream>
 #include <string>

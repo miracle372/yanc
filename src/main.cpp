@@ -5,7 +5,7 @@
 
 #include <config.h>
 
-#include "machine.hpp"
+#include "system.hpp"
 #include "user.hpp"
 
 int main()

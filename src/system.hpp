@@ -1,8 +1,8 @@
-// machine.cpp
+// system.cpp
 // Retrieves information about the machine running yanc
 
-#ifndef YANC_MACHINE_HPP
-#define YANC_MACHINE_HPP
+#ifndef YANC_SYSTEM_HPP
+#define YANC_SYSTEM_HPP
 
 #include <string>
 
