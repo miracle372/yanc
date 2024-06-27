@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 
+#include "user.hpp"
+
 int main()
 {
     // TODO: setup config.h to have a version constant in it
@@ -8,7 +10,7 @@ int main()
     std::cout << "yanc " << yanc_version << "\n\n";
 
     //placeholders
-    std::cout << "user@hostname" << '\n';
+    std::cout << yanc::username() << '@' << "hostname" << '\n';
     std::cout << "distro name (version)" << '\n';
     std::cout << "kernel version" << '\n';
 
