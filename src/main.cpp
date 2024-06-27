@@ -10,10 +10,11 @@ int main()
     std::string yanc_version = "0.1";
     std::cout << "yanc " << yanc_version << "\n\n";
 
+    // hostname@username
     std::cout << yanc::username() << '@' << yanc::hostname() << '\n';
 
-    std::cout << "distro name (version)" << '\n';
     std::cout << "kernel version" << '\n';
+    std::cout << "distro name (version)" << '\n';
 
     return 0;
 }

@@ -5,6 +5,7 @@
 
 namespace yanc
 {
+    /// Should return the system's hostname
     std::string_view hostname();
 }
 
